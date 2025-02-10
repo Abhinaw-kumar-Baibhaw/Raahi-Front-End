@@ -6,6 +6,7 @@ import { AppBar, Toolbar, Typography, Box, IconButton, Dialog, DialogActions, Di
 import { styled } from '@mui/system';
 import PersonIcon from '@mui/icons-material/Person';
 import { Slide } from '@mui/material';
+import NearbyPlaces from './components/NearbyPlaces';
 import Footer from './components/Footer'; // Import Footer component
 
 // Styled Header Component
@@ -167,7 +168,9 @@ function App() {
           </CardContent>
         </Card>
       </Box>
-  
+      
+      {/* */ }
+      <NearbyPlaces/>
       {/* Chatbot Component */}
       <Chatbot />
   
